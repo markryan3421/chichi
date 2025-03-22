@@ -15,5 +15,12 @@ Route::post('/logout', [UserController::class, 'logout']);
 // Profile Related Routes
 Route::get('/profile/{user:username}', [UserController::class, 'showProfile']);
 
+Route::get('/create-post', function () {
+    return view('create-post');
+});
+
+Route::get('/post', function () {
+    return view('post');
+});
 
 

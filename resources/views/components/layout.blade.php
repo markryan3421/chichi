@@ -60,7 +60,7 @@
 
       </nav>
 
-      @yield('content')
+      {{ $slot }}
 
     </div>
   </body>

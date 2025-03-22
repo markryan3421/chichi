@@ -1,7 +1,5 @@
-@extends('components.layout')
-
-@section('content')
-<div class="container mx-auto px-4">
+<x-layout> 
+  <div class="container mx-auto px-4">
     <!-- Content Section -->
     <div class="text-center">
       <h2 class="text-3xl font-semibold">
@@ -16,4 +14,4 @@
       </footer>
     </div>
   </div>
-@endsection
+</x-layout>

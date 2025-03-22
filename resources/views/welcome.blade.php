@@ -1,7 +1,5 @@
-@extends('components.layout')
-
-@section('content')
-<div class="flex flex-col items-center justify-between lg:flex-row">
+<x-layout>
+  <div class="flex flex-col items-center justify-between lg:flex-row">
     <!-- Left Side Content -->
     <div class="max-w-xl">
       <h2 class="text-5xl leading-tight font-light">Remember <span class="font-semibold">Writing?</span></h2>
@@ -53,4 +51,4 @@
         
     </div>
   </div> 
-@endsection
+</x-layout>
